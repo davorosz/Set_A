@@ -1,0 +1,12 @@
+Num1 = int(input("Enter a number here: "))
+Num2 = int(input("Enter another number here: "))
+op = input("Enter an operatior here: ")
+
+if op == "+":
+    print(Num1 + Num2)
+elif op == "-":
+    print(Num1 - Num2)
+elif op == "*":
+    print(Num1 * Num2)
+elif op == "/":
+    print(Num1 / Num2)
